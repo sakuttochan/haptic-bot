@@ -1,0 +1,23 @@
+{
+  "name": "haptic-bot",
+  "scripts": {
+  },
+  "env": {
+    "LD_LIBRARY_PATH": {
+      "required": true
+    },
+    "PATH": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
